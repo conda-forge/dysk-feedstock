@@ -38,7 +38,7 @@ tests:
   - script: dysk --help
 
 about:
-  homepage: https://github.com/Canop/dysk
+  homepage: https://dystroy.org/dysk
   summary: A utility listing your filesystems
   license: MIT
   license_file:
@@ -48,4 +48,5 @@ about:
 
 extra:
   recipe-maintainers:
+    - Canop
     - matthewfeickert

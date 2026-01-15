@@ -3,7 +3,7 @@ About dysk-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dysk-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/Canop/dysk
+Home: https://dystroy.org/dysk
 
 Package license: MIT
 
@@ -201,5 +201,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@Canop](https://github.com/Canop/)
 * [@matthewfeickert](https://github.com/matthewfeickert/)
 
