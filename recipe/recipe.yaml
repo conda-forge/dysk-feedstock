@@ -1,5 +1,5 @@
 context:
-  version: "3.6.0"
+  version: "3.6.1"
 
 package:
   name: dysk
@@ -8,12 +8,12 @@ package:
 source:
   # v${{ version }}b can be removed for versions post 3.6.0
   url:
-   - https://github.com/Canop/dysk/archive/refs/tags/v${{ version }}.tar.gz
-   - https://github.com/Canop/dysk/archive/refs/tags/v${{ version }}b.tar.gz
-  sha256: 59125412523853348218ff57eb1f58f31158e88dc172949d1007b4adbc7a4e61
+    - https://github.com/Canop/dysk/archive/refs/tags/v${{ version }}.tar.gz
+    - https://github.com/Canop/dysk/archive/refs/tags/v${{ version }}b.tar.gz
+  sha256: a712ce25f8c5867a29b699e5e22fed58b8884fb7ca112f01845c7a99b111dce5
 
 build:
-  number: 1
+  number: 0
   script:
     env:
       CARGO_PROFILE_RELEASE_STRIP: symbols
@@ -36,7 +36,7 @@ tests:
   - package_contents:
       strict: true
       bin:
-       - dysk
+        - dysk
   - script: dysk --help
 
 about:
