@@ -1,5 +1,5 @@
 context:
-  version: "3.6.1"
+  version: "3.7.0"
 
 package:
   name: dysk
@@ -10,7 +10,7 @@ source:
   url:
     - https://github.com/Canop/dysk/archive/refs/tags/v${{ version }}.tar.gz
     - https://github.com/Canop/dysk/archive/refs/tags/v${{ version }}b.tar.gz
-  sha256: a712ce25f8c5867a29b699e5e22fed58b8884fb7ca112f01845c7a99b111dce5
+  sha256: 6c53a413f9c79855824116483ebcad7b6cd3cd6d37bbf39698d37e5013b27454
 
 build:
   number: 0
