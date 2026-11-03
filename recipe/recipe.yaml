@@ -13,7 +13,7 @@ source:
   sha256: 3e82c5d1624bf30a8c71e56f879d7e1af85c1a0a957d7a47ffa1194dbc281ea3
 
 build:
-  number: 0
+  number: 1
   script:
     env:
       CARGO_PROFILE_RELEASE_STRIP: symbols
@@ -45,6 +45,7 @@ about:
   license: MIT
   license_file:
     - LICENSE
+    - THIRDPARTY.yml
   documentation: https://dystroy.org/dysk
   repository: https://github.com/Canop/dysk
 
